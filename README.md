@@ -41,6 +41,17 @@ npm run dev
 
 ## Configuration
 
+### Wallet Connection
+The app uses OnchainKit's wallet components with Coinbase Smart Wallet:
+- **Smart Wallet Only**: Configured for streamlined onboarding
+- **Coinbase Wallet Connector**: Integrated via wagmi
+- **Base Network**: Optimized for Base mainnet
+
+The wallet connection is implemented with:
+- `WagmiProvider` for wallet state management
+- `OnchainKitProvider` for Base integration
+- `ConnectWallet` component with identity features (Avatar, Name, Address, ETH Balance)
+
 ### OnchainKit Setup
 1. Get an API key from [Coinbase Developer Platform](https://portal.cdp.coinbase.com/)
 2. Configure paymaster for gas sponsorship
@@ -59,15 +70,18 @@ Add authorized Farcaster FIDs to `ADMIN_FIDS` in `.env.local`
 ```
 app/
 ├── components/          # React components
-│   ├── AppShell.tsx    # Main layout
+│   ├── AppShell.tsx    # Main layout with wallet integration
 │   ├── MintSection.tsx # Pack minting
 │   ├── InventorySection.tsx # Collection view
 │   ├── OpenPackSection.tsx # Pack opening
 │   └── AdminPanel.tsx  # Creator tools
 ├── layout.tsx          # Root layout
 ├── page.tsx            # Main page
-├── providers.tsx       # Context providers
+├── providers.tsx       # Context providers (Wagmi, OnchainKit, React Query)
 └── globals.css         # Global styles
+
+lib/
+└── wagmi.ts            # Wagmi configuration
 
 public/
 └── .well-known/
