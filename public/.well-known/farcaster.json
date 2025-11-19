@@ -7,10 +7,10 @@
   "frame": {
     "version": "vNext",
     "name": "ForgePack Collectibles",
-    "homeUrl": "https://forgepack.app",
+    "homeUrl": "https://app-7bb2d407-tqzn.vercel.app",
     "iconUrl": "https://forgepack.app/icon.png",
     "splashImageUrl": "https://forgepack.app/splash.png",
     "splashBackgroundColor": "#0f1729",
-    "webhookUrl": "https://forgepack.app/api/farcaster/webhook"
+    "webhookUrl": "https://app-7bb2d407-tqzn.vercel.app/api/webhook"
   }
 }
