@@ -1,0 +1,14 @@
+{
+  "name": "ForgePack Collectibles",
+  "description": "ForgePack Collectibles is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://ebca6ab2-534e-4292-86e2-161e7bb2d407.vercel.app",
+  "properties": {
+    "app": {
+      "name": "ForgePack Collectibles",
+      "description": "ForgePack Collectibles is a Base Mini App built with Zara.",
+      "url": "https://ebca6ab2-534e-4292-86e2-161e7bb2d407.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}

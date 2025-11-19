@@ -1,0 +1,36 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "ForgePack Collectibles",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://ebca6ab2-534e-4292-86e2-161e7bb2d407.vercel.app",
+    "imageUrl": "https://ebca6ab2-534e-4292-86e2-161e7bb2d407.vercel.app/image.png",
+    "splashImageUrl": "https://ebca6ab2-534e-4292-86e2-161e7bb2d407.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "webhookUrl": "https://ebca6ab2-534e-4292-86e2-161e7bb2d407.vercel.app/api/webhook",
+    "subtitle": "Built with Zara",
+    "description": "ForgePack Collectibles is a Base Mini App built with Zara.",
+    "screenshotUrls": [
+      "https://ebca6ab2-534e-4292-86e2-161e7bb2d407.vercel.app/screenshot1.png",
+      "https://ebca6ab2-534e-4292-86e2-161e7bb2d407.vercel.app/screenshot2.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "heroImageUrl": "https://ebca6ab2-534e-4292-86e2-161e7bb2d407.vercel.app/hero.png",
+    "tagline": "ForgePack Collectibles",
+    "buttonTitle": "Open mini app",
+    "ogTitle": "ForgePack Collectibles",
+    "ogDescription": "ForgePack Collectibles is a Base Mini App built with Zara.",
+    "ogImageUrl": "https://ebca6ab2-534e-4292-86e2-161e7bb2d407.vercel.app/og-image.png",
+    "castShareUrl": "https://warpcast.com/~/compose?text=Check+out+ForgePack%20Collectibles+at+https%3A%2F%2Febca6ab2-534e-4292-86e2-161e7bb2d407.vercel.app"
+  }
+}
