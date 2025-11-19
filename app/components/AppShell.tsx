@@ -1,7 +1,8 @@
 'use client';
 
 import { type ReactNode } from 'react';
-import { ConnectWallet } from './ConnectWallet';
+import { ConnectWallet } from '@coinbase/onchainkit/wallet';
+import { Wallet } from '@coinbase/onchainkit/wallet';
 
 interface AppShellProps {
   children: ReactNode;
@@ -19,7 +20,9 @@ export function AppShell({ children }: AppShellProps) {
             </div>
             <span className="font-bold text-lg text-fg">ForgePack</span>
           </div>
-          <ConnectWallet />
+          <Wallet>
+            <ConnectWallet />
+          </Wallet>
         </div>
       </header>
 

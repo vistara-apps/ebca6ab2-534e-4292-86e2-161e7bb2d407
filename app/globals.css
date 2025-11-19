@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import '@coinbase/onchainkit/styles.css';
+
 :root {
   /* BASE Theme - Dark blue background, Base blue accents */
   --color-bg: hsl(220, 40%, 8%);

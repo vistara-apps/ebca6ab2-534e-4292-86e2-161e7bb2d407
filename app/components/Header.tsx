@@ -1,6 +1,6 @@
 'use client';
 
-import { ConnectWallet } from '@coinbase/onchainkit/wallet';
+import { ConnectWallet, Wallet } from '@coinbase/onchainkit/wallet';
 import { Package } from 'lucide-react';
 
 export function Header() {
@@ -18,7 +18,9 @@ export function Header() {
             </div>
           </div>
           
-          <ConnectWallet />
+          <Wallet>
+            <ConnectWallet />
+          </Wallet>
         </div>
       </div>
     </header>
